@@ -1,0 +1,553 @@
+@media (max-width:768px){
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+}
+.body{
+    width: 100%;
+    align-items: center;
+    margin: 0px auto;
+}
+.menu{
+    margin: 0px auto;
+    width: 450px;
+    height: auto;
+    display: flex;
+    background-color: rgb(55, 67, 80);
+}
+.trai{
+    margin-left: 4%;
+    display:inline-block;
+    width: auto;
+}
+.trai ul{
+    list-style-type: none;width: auto;
+}
+.trai li{
+    display: inline-block;width: auto;
+}
+.trai a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 50% 20%;
+    width: 46px;
+    height: 15px;
+}
+.phai{
+    display: inline-block;
+    width: auto;
+}
+.phai ul{
+    list-style-type: none;width: auto;
+}
+.phai li{
+    display: inline-block;width: auto;
+}
+.phai a{
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 50% 20%;width: auto;
+    width: 46px;
+    height: 15px;
+}
+.banner{
+    margin: 0px auto;
+    height: auto;
+    width: 450px;
+    display: block;
+    position: relative;
+}
+.banner img{
+    display: none;
+}
+.banner h1{
+    font-size: 25px;
+    color: black;
+    display: block; 
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.banner p{
+    font-size: 20px;
+    display: block; 
+    margin-left: 5%;
+    margin-bottom: 8%;
+    color: rgb(114, 113, 113);
+}
+.banner hr{
+    display: block;
+    width: 92%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.mang1{
+    width: 450px;
+    margin: 0 auto;
+}
+.mangchuto{
+    display: block;
+}
+.mangchuto h3{
+    font-size: 20;
+    padding-top: 1.8%;
+    margin-left: 5%;
+}
+.mangchuto p{
+    font-size: 20px;
+    padding-top: 3px;
+    margin-left: 5%;
+    margin-bottom: 4.5%;
+    margin-right: 3%;
+    color: rgb(114, 113, 113);
+}
+.mang2{
+    margin: 0px auto;
+    display:block;
+    height: auto;
+    padding-bottom: 5%;
+}
+.cot1{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+    display: block;
+}
+.cot2{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+    display:block;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.anh1 img{
+    display: inline-block;
+    width: 97%;
+    height: 100%;
+    margin-bottom: 4.445%;
+}
+.anh2 img{
+    display: inline-block;
+    width: 97%;
+    height: 100%;
+}
+.anh1{
+    width: 100%;
+    display: block;
+}
+.anh2{
+    width: 100%;
+    display: block;
+}
+.cot3{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.cot3 img{
+    width: 97%;
+    height: 100%;
+}
+
+.mang3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.cota{
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+}
+.mang3 h3{
+    font-size: 16px;
+}
+.mang3 a{
+    color: rgb(40, 120, 185);
+    font-size: 13px;
+    padding-top: 1.8%;
+}
+.noidug{
+    color: rgb(114, 113, 113);
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cotb{
+    margin: 10% 0% 10% 5%;
+    width: 100%;
+    height: 100%;
+}
+.cotc{
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+}
+}
+
+@media screen and (min-width: 992px){
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 1150px;
+    height: auto;
+    display: flex;
+}
+.trai{
+    margin-left: 4%;
+    display: inline-block;
+    width: 21%
+}
+.trai ul{
+    list-style-type: none;
+}
+.trai li{
+    display: inline;
+}
+.trai a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    padding: 30px 6px;
+}
+.phai{
+    margin-right: 4%;
+    text-align: right;
+    display: inline-block;
+    width: 71%
+}
+.phai ul{
+    list-style-type: none;
+}
+.phai li{
+    display: inline;
+}
+.phai a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    padding: 30px 6px;
+}
+.banner{
+    height: auto;
+    width: 1150px;
+    display: flex;
+    position: relative;
+}
+.banner img{
+    display: inline;
+    width: 100%;
+}
+.banner h1{
+    font-size: 40px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: white;
+    display: inline; 
+}
+.banner p{
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: white;
+    display: inline; 
+}
+.banner hr{
+    display: none;
+}
+.mang1{
+    background-color: rgb(236, 236, 236);
+    width: 1150px;
+    margin: 0 auto;
+}
+.mangchuto{
+    display: block;
+}
+.mangchuto h3{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.mangchuto p{
+    font-size: 20px;
+    padding-top: 3px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.mang2{
+    display: flex;
+    height: auto;
+   padding-bottom: 30px;
+}
+.cot1{
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+}
+.cot2{
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.cot3{
+    margin: 0px 50px 0px 20px;
+    width: 100%;
+}
+.cot3 img{
+    height: 325px;
+}
+.mang2 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.mang3{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.cota{
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+}
+.mang3 h3{
+    font-size: 25px;
+}
+.mang3 a{
+    text-decoration: none;
+    color: rgb(106, 255, 255);
+    font-size: 18px;
+    padding-top: 10px;
+}
+.noidug{
+    color: rgb(49, 49, 49);
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.cotb{
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.cotc{
+    margin: 0px 50px 0px 20px;
+    width: 100%;
+    height: 100%;
+}
+}
+@media screen and (min-width:768px) and (max-Width: 992px){
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Segoe UI';
+}
+.body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 800px;
+    height: auto;
+    display: flex;
+    background-color: rgb(55, 67, 80);
+}
+.trai{
+    margin-left: 7%;
+    display: inline-block;
+    width: 43%
+}
+.trai ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.trai li{
+    display: inline;
+}
+.trai a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 6px;
+}
+.phai{
+    margin-right: 4%;
+    text-align: right;
+    display: inline-block;
+    width: 46%
+}
+.phai ul{
+    list-style-type: none;
+}
+.phai li{
+    display: inline;
+}
+.phai a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 6px;
+}
+.banner{
+    height: auto;
+    width: 800px;
+    display: block;
+    position: relative;
+}
+.banner img{
+    display: none;
+}
+.banner h1{
+    font-size: 40px;
+    color: black;
+    display: block; 
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.banner p{
+    font-size: 20px;
+    display: block; 
+    margin-left: 5%;
+    margin-bottom: 50px;
+    color: rgb(114, 113, 113);
+}
+.banner hr{
+    display: block;
+    width: 92%;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 3%
+}
+.mang1{
+    width: 800px;
+    margin: 0 auto;
+}
+.mangchuto{
+    display: block;
+}
+.mangchuto h3{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 4.5%;
+}
+.mangchuto p{
+    font-size: 20px;
+    padding-top: 3px;
+    margin-left: 4.5%;
+    margin-bottom: 4.5%;
+    color: rgb(114, 113, 113);
+}
+.mang2{
+    display: column;
+    height: auto;
+   padding-bottom: 5%;
+}
+.cot1{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+    display: inline-flex;
+}
+.cot2{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+    display:inline-flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.anh1 img{
+    display: inline-block;
+    margin-right: 3%;
+    width: 97%;
+    height: 100%;
+}
+.anh2 img{
+    display: inline-block;
+    margin-left: 3%;
+    width: 97%;
+    height: 100%;
+}
+.anh1{
+    width: 100%;
+    display: block;
+}
+.anh2{
+    width: 100%;
+    display: block;
+}
+.cot3{
+    margin-left: 5%;
+    width: 45%;
+}
+.cot3 img{
+    margin-right: 3%;
+    width: 97%;
+    height: 100%;
+}
+
+.mang3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.cota{
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+}
+.mang3 h3{
+    font-size: 22px;
+}
+.mang3 a{
+    color: rgb(40, 120, 185);
+    font-size: 19px;
+    padding-top: 10px;
+}
+.noidug{
+    color: rgb(114, 113, 113);
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.cotb{
+    margin: 10% 0% 10% 5%;
+    width: 100%;
+    height: 100%;
+}
+.cotc{
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+}
+}
+
